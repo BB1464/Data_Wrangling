@@ -23,7 +23,6 @@ lsmeans <- emmeans(model,'Variety')
 pairs(lsmeans)
 
 
-#multcomp::cld(lsmeans,reverse=T,letters=letters,adjust='none')
 
 
 # install multcomp package in R -------------------------------------------
