@@ -1,1 +1,1 @@
-# This Repository contains scripts in which I used in Teaching one of my Student on Data Wrangling in R using the tidyverse
+# This repository contains scripts in which I used in teaching one of my student on data wrangling in R using the tidyverse
