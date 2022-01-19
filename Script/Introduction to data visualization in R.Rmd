@@ -1,0 +1,37 @@
+---
+title: "Introduction to Data Visualization in R"
+subtitle: ''
+author: "Oluwafemi Oyedele"
+institute: "Research Fellow, IITA"
+date: "2016/12/12 (updated: `r Sys.Date()`)"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+
+
+# Data Visualization with ggplot2
+
+- ggplot2 is a system for declaratively creating graphics, based on The Grammar of Graphics. You provide the data, tell ggplot2 how to map variables to aesthetics, what graphical primitives to use, and it takes care of the details.
+
+
+# ggplot2 breaks down a plot into 7 basic component which are
+
+- **The data**: Here you pass the data that you want to visualie to ggplot
+
+- **aestetics**: this describe how variables in the data are mapped on the graph.
+
+- **geometry**: Here you have to specify the type of visualization you want to plot.
+
+---
+- **coordinate**: this describes how data coordinates are mapped to the plane of the graphics
+
+- **facet**: this describe how to break up the data into subsets and how to display those subsets as small multiples
+
+- **theme**: themes are powerful way to customize the non-data components of your plots i.e. titles, labels fonts etc.
+
+- **Statistics**: This has to do with statistical representation of our data to aid understanding.
