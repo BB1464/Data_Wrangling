@@ -14,7 +14,5 @@ ggplot(data = diamonds,
   theme(legend.position = '')
 
 
-
-
 ggplot(data=diamonds,aes(x = cut,y = price))+
   geom_boxplot(outlier.colour = 'green',col='blue')
