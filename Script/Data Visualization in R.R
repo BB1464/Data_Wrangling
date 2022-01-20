@@ -73,3 +73,9 @@ ggplot(data = mtcars_new,
   geom_density()+
   theme_classic()+
   coord_cartesian(expand = c(0,0))
+
+
+
+ggplot(data = mtcars_new,
+       mapping = aes(gear,fill=am))+
+  geom_bar()
