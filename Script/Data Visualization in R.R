@@ -79,3 +79,21 @@ ggplot(data = mtcars_new,
 ggplot(data = mtcars_new,
        mapping = aes(gear,fill=am))+
   geom_bar()
+
+# Boxplot -----------------------------------------------------------------
+
+ggplot(data = mtcars_new)+
+  aes(x = gear,y = mpg,fill=vs)+
+  stat_boxplot(geom='errorbar')+
+  geom_boxplot()+
+  scale_fill_brewer(palette = 'Set1')+
+  theme_test()+
+  facet_grid(am~carb)
+
+
+# How to modify the background of the above box plot to white background
+
+
+
+
+
