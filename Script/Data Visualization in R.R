@@ -88,8 +88,8 @@ ggplot(data = mtcars_new)+
   geom_boxplot()+
   scale_fill_brewer(palette = 'Set1')+
   theme_test()+
-  facet_grid(am~carb)
-
+  facet_grid(am~carb)+
+theme(strip.background = element_rect(fill = 'white'))
 
 # How to modify the background of the above box plot to white background
 
