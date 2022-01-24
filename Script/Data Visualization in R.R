@@ -94,6 +94,23 @@ theme(strip.background = element_rect(fill = 'white'))
 # How to modify the background of the above box plot to white background
 
 
+# ggplot and mtcars data --------------------------------------------------
+data(mtcars)
 
+glimpse(mtcars)
 
+unique(mtcars$vs)
+unique(mtcars$mpg)
+unique(mtcars$am)
+unique(mtcars$gear)
+unique(mtcars$carb)
+
+mtcars %>% map(.f = unique)
+
+# Alternatively 
+map(.x = mtcars,.f = unique)
+
+purrr::map(.x = mtcars,.f = unique)
+
+dplyr::select(.data = mtcars,mpg)
 
