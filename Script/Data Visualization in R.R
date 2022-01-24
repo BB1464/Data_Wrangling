@@ -114,3 +114,17 @@ purrr::map(.x = mtcars,.f = unique)
 
 dplyr::select(.data = mtcars,mpg)
 
+
+
+
+
+# Assignment --------------------------------------------------------------
+
+library(ggplot2)
+
+ggplot(data = mtca,
+       mapping = (x=mpg,y=hp))+
+  geom_-----()+
+  theme_tet()+
+  lab(y='Miles per gallon)+
+  theme(text=-----(family='',size=-----,face=----))
