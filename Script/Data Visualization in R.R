@@ -118,13 +118,15 @@ dplyr::select(.data = mtcars,mpg)
 
 
 
-# Assignment --------------------------------------------------------------
+# Assignment -----------------------------------------------------------
 
 library(ggplot2)
 
-ggplot(data = mtca,
-       mapping = (x=mpg,y=hp))+
-  geom_-----()+
-  theme_tet()+
-  lab(y='Miles per gallon)+
-  theme(text=-----(family='',size=-----,face=----))
+ggplot(data = mtcars,
+mapping = aes(x=mpg,y=hp))+
+geom_point()+
+theme_test()+
+labs(y='Miles per gallon')+
+theme(text=element_text(family='serif',size=12,face='bold'))
+
+

@@ -1,0 +1,30 @@
+---
+title: "Report Writing in R"
+author: "Oluwafemi Oyedele"
+date: "1/26/2022"
+output: 
+  html_document: 
+    toc: yes
+    keep_md: yes
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Mapping in R
+
+```{r Load_Libraries,echo=FALSE,warning=FALSE,message=FALSE}
+library(leaflet)
+```
+
+
+
+# This shows the map of a certain location
+
+```{r Maps,echo=FALSE,warning=FALSE,message=FALSE}
+leaflet() %>% 
+  addTiles() %>% 
+  addMarkers(lng = 7.376,lat = 5.230)
+```
+
