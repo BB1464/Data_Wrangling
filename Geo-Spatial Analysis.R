@@ -224,7 +224,12 @@ mapview(nigeria_pop,
         legend = TRUE,
         layer.name = "Population")
 
+
+
+
 # Stop Here for Today 
+
+
 
 ## ---------------------------------------------------------------------------
 sf_use_s2(FALSE)
@@ -378,3 +383,8 @@ ggplot(data = nigeria_pop, aes(fill = `pop_2016`)) +
        caption = "Source: https://en.wikipedia.org/wiki/List_of_Nigerian_states_by_population") + 
    theme_void()
 
+
+
+# Assignment 
+
+# Visualize the map of Africa in R
