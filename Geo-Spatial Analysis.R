@@ -161,7 +161,7 @@ head(df)
 ## ---------------------------------------------------------------------------
 world_covid1 <- world %>% 
   filter(continent != "Antarctica") %>%
-  select(country = sovereignt, geometry) %>%
+  select(country = sovereignt, geometry) %>% 
   left_join(df, by = "country")
 
 plot(world_covid1[, c("total_cases")])
@@ -385,6 +385,3 @@ ggplot(data = nigeria_pop, aes(fill = `pop_2016`)) +
 
 
 
-# Assignment 
-
-# Visualize the map of Africa in R

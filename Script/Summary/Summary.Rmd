@@ -1,0 +1,26 @@
+---
+title: "Demystifying R"
+#subtitle: "&#x2694;&#xFE0F; xaringan +<br/>&#x1F60E; xaringanthemer"  
+author: 
+  - "Oluwafemi Oyedele"
+date: '`r Sys.Date()`'
+output:
+  xaringan::moon_reader:
+    css: xaringan-themer.css
+    nature:
+      slideNumberFormat: "%current%"
+      highlightStyle: github
+      highlightLines: true
+      ratio: 16:9
+      countIncrementalSlides: true
+---
+
+~~Introduction to R~~
+
+~~Data Wrangling in R~~
+
+~~Data Visualization in R~~
+
+~~Report Witting in R~~
+
+~~Geo-Spatial Analysis in  R~~
