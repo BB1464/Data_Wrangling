@@ -21,6 +21,6 @@ output:
 
 ~~Data Visualization in R~~
 
-~~Report Witting in R~~
+~~Report Writing in R~~
 
 ~~Geo-Spatial Analysis in  R~~
